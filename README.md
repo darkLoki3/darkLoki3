@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @darkLoki3
 - 👀 I’m interested in Tecnology
-- 🌱 I’m currently learning about git and github
+- 🌱 I’m currently learning about git, github and how to make a unique readme
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
