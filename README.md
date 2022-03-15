@@ -27,9 +27,7 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" width="40" height="40" />
 
 
-<p align="center">
 <img src="https://img.shields.io/badge/stage-learning-green">
-</p>
 
 
 ### Learning in crawling stages
