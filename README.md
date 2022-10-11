@@ -13,7 +13,7 @@
 *[License](#License)
 *[Conclusion](#Conclusion) -->
 
-## 👋 Hello! Welcome to my Github profile.
+# 👋 Hello! Welcome to my Github profile.
 
 ## My name is Felipe and my nickname is darkLoki!
 
