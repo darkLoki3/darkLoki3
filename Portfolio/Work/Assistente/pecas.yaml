@@ -1,0 +1,13 @@
+material:
+{
+  resistor1k: 3 unidades ou 7 unidades,
+  resistor2k: 2 unidade,
+  protoboard: 1 unidade,
+  sensorHC-SR04: 1 unidade,
+  cabos:femea-macho:  4 unidades,
+  cabos:macho-macho: 2 unidades
+}
+filamentos:
+{
+  abs2.85cinzabasf: 2 rolos,
+}
