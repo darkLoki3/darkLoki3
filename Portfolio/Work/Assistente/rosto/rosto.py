@@ -2,8 +2,8 @@
 import pyglet
 
 animation = pyglet.resource.animation('falando2.gif')
-animation2 = pyglet.image.load_animation('/home/pi/Documents/Portfolio/Assistente/rosto/piscando2.gif')
-animation3 = pyglet.image.load_animation('/home/pi/Documents/Portfolio/Assistente/rosto/erro2.gif')
+animation2 = pyglet.image.load_animation('piscando2.gif')
+animation3 = pyglet.image.load_animation('erro2.gif')
 animSprite = pyglet.sprite.Sprite(animation)
 animSprite2 = pyglet.sprite.Sprite(animation2)
 animSprite3 = pyglet.sprite.Sprite(animation3)
