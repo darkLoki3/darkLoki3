@@ -19,7 +19,7 @@
 
 ### Actually I am returning to study tecnology and programming, after more than 10 years, because of that the study is going in a slow pace as consequence of my busy schedule. I am self learner than sometimes I can stop updating this github. 
 
-### Last year some changes happenned irl, because of work was made a request for learning more about programming.
+### in 2019 some changes happenned irl, because of work was made a request for learning more about programming.
 
 ### Tools and Technologies
 
