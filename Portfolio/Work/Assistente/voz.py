@@ -1,26 +1,28 @@
 # | fim da tarefa ||IA-10 do jira}}
+import RPi.GPIO
+import internet
 import pandas as pd
 import pyttsx3
 import speech_recognition as sr
-import winsound
+import sockets
 from keyboard import is_pressed
 
 # from Assistente.rosto.rosto import Window
 # from Assistente.sensor import sensor
 
 # configuração da voz e driver usado
-engine = pyttsx3.init('sapi5')
+def config():
+    engine = pyttsx3.init('sapi5')
 
-pt_br_voice_id = "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\Ricardo RSI Harpo 22kHz"
-# configuração da voz masculina
-engine.setProperty('voice', pt_br_voice_id)
-# configuração do volume do microfone
-engine.setProperty('volume', 1.)
-# configuração da velocidade da fala
-engine.setProperty('rate', 140)
-# Arruma a configuração desejada
-engine.runAndWait()
-
+    pt_br_voice_id = "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\Ricardo RSI Harpo 22kHz"
+    # configuração da voz masculina
+    engine.setProperty('voice', pt_br_voice_id)
+    # configuração do volume do microfone
+    engine.setProperty('volume', 1.)
+    # configuração da velocidade da fala
+    engine.setProperty('rate', 140)
+    # Arruma a configuração desejada
+    engine.runAndWait()
 
 def fala(audio):
     if is_pressed("q"):
