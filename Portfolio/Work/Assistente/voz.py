@@ -11,6 +11,7 @@ from keyboard import is_pressed
 # from Assistente.sensor import sensor
 
 # configuração da voz e driver usado
+@assert
 def config():
     engine = pyttsx3.init('sapi5')
 
@@ -24,6 +25,7 @@ def config():
     # Arruma a configuração desejada
     engine.runAndWait()
 
+@assert
 def fala(audio):
     if is_pressed("q"):
         raise SystemExit
@@ -31,7 +33,7 @@ def fala(audio):
         engine.say(audio)
         engine.runAndWait()
 
-
+@assert
 def get_audio():
     """get_audio():
     Returns:
@@ -56,8 +58,8 @@ def get_audio():
             else:
                 return data
 
-
-if __name__ == '__main__':
+@assert
+def main():
     # principal
     if is_pressed("q"):
         raise SystemExit
