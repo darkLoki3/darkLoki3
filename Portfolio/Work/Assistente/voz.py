@@ -56,6 +56,7 @@ def get_audio():
             except sr.UnknownValueError:
                 fala("Não entendi, pode repetir?")
                 get_audio()
+                pass
             else:
                 return data
 
